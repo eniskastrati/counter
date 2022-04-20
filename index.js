@@ -6,3 +6,9 @@ const save_button= document.getElementById('save')
 //variable declaration
 let counter = 0
 let history = "";
+
+//functions
+const increment = () => {
+    counter = counter + 1;
+    score.innerHTML = counter
+}
