@@ -20,3 +20,7 @@ const save = () => {
     counter = 0
     score.innerHTML = counter
 }
+
+//adding the function to buttons onclick
+increase_button.addEventListener('click', increment);
+save_button.addEventListener('click', save);
