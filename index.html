@@ -2,22 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-	<meta author="eniskastrati">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Match Cards</title>
+    <title>Counter</title>
 </head>
-<body>
-    <h1>Match Cards</h1>
-    <br />
-    <br/>
-    <br/>
+<body class="wrapper">
+    <div class="counter">
+        <h1 id="title">Counter</h1>
+        <h4>Score: <span id="score"></span></h4>
+        <br />
+        <button class="btn" id="increase">INCREASE</button>
+        <button class="btn" id="save">SAVE</button>
+        <h6>History: <span id="history"></span></h6>
+    </div>
+    
 
-    <h3>Score: <span id="result"></span></h3>
-
-    <div id="grid"></div>
-
-    <script src="app.js" charset="utf-8"></script>
+    <script src="app.js"></script>
 </body>
 </html>
