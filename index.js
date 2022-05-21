@@ -18,7 +18,8 @@ const save = () => {
     history = history + counter + " - " 
     historyDisplay.textContent = history
     counter = 0
-    score.innerHTML = counter
+    score.innerHTML = counter;
+    let name = 'null';
 }
 
 //adding the function to buttons onclick
